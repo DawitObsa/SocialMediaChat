@@ -34,8 +34,8 @@ Follow these steps to set up and run the project locally:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/akashdeep023/Chat_App.git
-    cd Chat_App
+    git clone https://github.com/DawitObsa/SocialMediaChat.git
+    cd SocialMediaChat
     ```
 
 2.  **Install Dependencies:**
@@ -55,7 +55,7 @@ Follow these steps to set up and run the project locally:
 
 3.  **Set Up Environment Variables:**
 
-    Configure the following environment variables by creating a .env file in the root of Forntend and Backend Folder:
+    Configure the following environment variables by creating a .env file in the root of Frontend and Backend Folder:
 
     Frontend Folder :
 
@@ -66,8 +66,8 @@ Follow these steps to set up and run the project locally:
     Backend Folder :
 
     ```bash
-    FRONTEND_URL=http://localhost:5173
-    MONGODB_URI=mongodb://127.0.0.1:27017/chat-app
+    FRONTEND_URL=http://localhost:5176
+    MONGODB_URI=mongodb+srv://chatapp:chatapp123@cluster0.mongodb.net/chat-app?retryWrites=true&w=majority
     PORT=9000
     JWT_SECRET=secret-kvndkvdlkajkhkJkBiu6JJNjkbhkvnskcmhLJ5dKbkjsamnv
     ```
@@ -90,36 +90,38 @@ Follow these steps to set up and run the project locally:
 
 5.  **Open in Your Browser:**
 
-Open `http://localhost:5173` in your web browser.
+Open `http://localhost:5176` in your web browser.
 
 ## Project Structure
 
-    ├── frontend
-    │   ├── public
-    │   ├── src
-    │   │   ├── assets
-    │   │   ├── components
-    │   │   ├── pages
-    │   │   ├── redux
-    │   │   ├── socket
-    │   │   ├── utils
-    │   │   ├── App.jsx
-    │   │   ├── main.jsx
-    │   │   └── index.css
-    │   ├── index.html
-    │   ├── tailwind.config.js
-    │   ├── .env
-    │   └── package.json
-    ├── backend
-    │   ├── config
-    │   ├── controllers
-    │   ├── middlewares
-    │   ├── models
-    │   ├── routes
-    │   ├── server.js
-    │   ├── .env
-    │   └── package.json
-    └── README.md
+    ```
+    frontend
+    |   public
+    |   src
+    |   |   assets
+    |   |   components
+    |   |   pages
+    |   |   redux
+    |   |   socket
+    |   |   utils
+    |   |   App.jsx
+    |   |   main.jsx
+    |   |   index.css
+    |   index.html
+    |   tailwind.config.js
+    |   .env
+    |   package.json
+    backend
+    |   config
+    |   controllers
+    |   middlewares
+    |   models
+    |   routes
+    |   server.js
+    |   .env
+    |   package.json
+    README.md
+    ```
 
 ## Author
 
